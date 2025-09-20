@@ -38,11 +38,19 @@ Base is a secure, low-cost, developer-friendly Ethereum L2 built on Optimism's [
    NETWORK_ENV=.env.sepolia CLIENT=reth docker compose up --build
    ```
 
-### Supported Clients
+### 🔧 Supported Clients on Base Network
 
-- `geth` (default)
-- `reth`
-- `nethermind`
+Base Node currently supports multiple Ethereum clients to give you flexibility and reliability.  
+
+- **geth** (default) ✅ – Official Go Ethereum client, widely used and stable.  
+- **reth** ⚡ – Rust-based client, fast and efficient.  
+- **nethermind** 🌐 – .NET Ethereum client, great for Windows environments.  
+- **erigon** 🚀 – High-performance, modular client for advanced use cases.  
+- **besu** 🛡️ – Enterprise-focused Java client with rich monitoring features.  
+
+> Tip: You can switch clients easily using the `CLIENT` environment variable:  
+```bash
+CLIENT=reth docker compose up --build
 
 ## Requirements
 
