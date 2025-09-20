@@ -48,10 +48,6 @@ Base Node currently supports multiple Ethereum clients to give you flexibility a
 - **erigon** 🚀 – High-performance, modular client for advanced use cases.  
 - **besu** 🛡️ – Enterprise-focused Java client with rich monitoring features.  
 
-> Tip: You can switch clients easily using the `CLIENT` environment variable:  
-```bash
-CLIENT=reth docker compose up --build
-
 ## Requirements
 
 ### Minimum Requirements
